@@ -1,0 +1,24 @@
+{
+  "name": "babel-plugin-auto-bind-context",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/main.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Voltra/babel-plugin-auto-bind-context.git"
+  },
+  "keywords": [
+    "babel-plugin"
+  ],
+  "author": "Voltra",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Voltra/babel-plugin-auto-bind-context/issues"
+  },
+  "homepage": "https://github.com/Voltra/babel-plugin-auto-bind-context#readme"
+}
