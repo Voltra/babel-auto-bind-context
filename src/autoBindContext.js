@@ -52,5 +52,8 @@ autoBindContext.cache = {
 };
 
 
+//Uncomment below code to make it globally available
+//if(window)
+//    window.autoBindContext = autoBindContext;
 
-export default autoBindContext
+exports.autoBindContext = autoBindContext;

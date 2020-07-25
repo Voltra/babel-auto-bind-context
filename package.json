@@ -7,6 +7,7 @@
     "test": "tests"
   },
   "scripts": {
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,14 @@
   "bugs": {
     "url": "https://github.com/Voltra/babel-plugin-auto-bind-context/issues"
   },
-  "homepage": "https://github.com/Voltra/babel-plugin-auto-bind-context#readme"
+  "homepage": "https://github.com/Voltra/babel-plugin-auto-bind-context#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "webpack": "^3.11.0"
+  },
+  "dependencies": {
+    "babel-plugin-syntax-function-bind": "^6.13.0"
+  }
 }
